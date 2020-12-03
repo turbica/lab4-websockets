@@ -70,3 +70,5 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 719974 |[Sergio Martínez](https://github.com/Sergio-Martinez-97)|[Sergio-Martinez-97/lab4-websockets](https://github.com/Sergio-Martinez-97/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/Sergio-Martinez-97/lab4-websockets.svg?branch=test)|  |
 | 755769 |[Saúl Flores Benavente](https://github.com/saul205)|[saul205/lab4-websockets](https://github.com/saul205/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/saul205/lab4-websockets.svg?branch=test)|  |
 | 757755 |[Andrés Otero García](https://github.com/andrewknoll)|[andrewknoll/lab4-websockets](https://github.com/andrewknoll/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/andrewknoll/lab4-websockets.svg?branch=test)|  |
+| 740241 |[Sergio Álvarez](https://github.com/sergio-alv)|[sergio-alv/lab4-websockets](https://github.com/sergio-alv/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/sergio-alv/lab4-websockets.svg?branch=test)|  |
+
