@@ -30,9 +30,12 @@ Done:
 - [Turn the DOCTOR into a client of the server, so, the server acts only as message broker](https://github.com/rauljavierre/lab4-websockets/tree/test). Raul Javierre ha comprobado que cuando el servidor actua como un message broker elaborar un mini subprotocolo ayuda a la hora de organizar la comunicación y facilitar la escalabilidad :gift:
 - [Replace the current implementation (Eclipse Grizzly) by a Spring Websockets implementation](https://github.com/Alvarogd6/lab4-websockets/tree/gift). Alvaro García ha podido migrar la plataforma del servidor de Grizzly a Spring usando un TextWebSocketHandler. Lección aprendida, cuando hay un marco compartido bien definido (ver [JSR 356](https://jcp.org/en/jsr/detail?id=356)) las implementaciones pueden parecer muy diferentes, pero enseguida se ve qué se relaciona con qué. : gift: 
 
-Proposed:
+In progress:
 
 - Support STOMP in the server side and create a small client that uses it
+
+Proposed:
+
 - Support SockJS in the server side and show that xhr-polling can be used as transport instead of WebSocket when needed ([additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-fallback-sockjs-client))
 - Use the server as a relay server to connect to an external message broker (e.g. RabbitMQ, [additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-stomp-handle-broker-relay)) 
 
@@ -70,4 +73,7 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 719974 |[Sergio Martínez](https://github.com/Sergio-Martinez-97)|[Sergio-Martinez-97/lab4-websockets](https://github.com/Sergio-Martinez-97/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/Sergio-Martinez-97/lab4-websockets.svg?branch=test)|  |
 | 755769 |[Saúl Flores Benavente](https://github.com/saul205)|[saul205/lab4-websockets](https://github.com/saul205/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/saul205/lab4-websockets.svg?branch=test)|  |
 | 757755 |[Andrés Otero García](https://github.com/andrewknoll)|[andrewknoll/lab4-websockets](https://github.com/andrewknoll/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/andrewknoll/lab4-websockets.svg?branch=test)|  |
+| 738737 |[Víctor Jarreta](https://github.com/VJarreta) | [VJarreta/lab4-websockets](https://github.com/VJarreta/lab4-websockets/tree/test) |[![Build Status](https://travis-ci.com/VJarreta/lab4-websockets.svg?branch=test)](https://travis-ci.com/github/VJarreta/lab4-websockets)|  |
+| 740241 |[Sergio Álvarez](https://github.com/sergio-alv)|[sergio-alv/lab4-websockets](https://github.com/sergio-alv/lab4-websockets/tree/test)| ![Build Status](https://api.travis-ci.org/sergio-alv/lab4-websockets.svg?branch=test)|  |
+| 758807 |[Jorge García Pueyo](https://github.com/jgarciapueyo)|[jgarciapueyo/lab4-websockets](https://github.com/jgarciapueyo/lab4-websockets/tree/test)| [![Build Status](https://travis-ci.com/jgarciapueyo/lab4-websockets.svg?branch=test)](https://travis-ci.com/jgarciapueyo/lab4-websockets) | Support STOMP |
 | 723883 |[Jorge Turbica](https://github.com/turbica)|[turbica/lab4-websockets](https://github.com/turbica/lab4-websockets/tree/test)| ![Build Status](https://travis-ci.com/turbica/lab4-websockets.svg?branch=test)|  |
