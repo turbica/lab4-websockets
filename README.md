@@ -30,9 +30,12 @@ Done:
 - [Turn the DOCTOR into a client of the server, so, the server acts only as message broker](https://github.com/rauljavierre/lab4-websockets/tree/test). Raul Javierre ha comprobado que cuando el servidor actua como un message broker elaborar un mini subprotocolo ayuda a la hora de organizar la comunicación y facilitar la escalabilidad :gift:
 - [Replace the current implementation (Eclipse Grizzly) by a Spring Websockets implementation](https://github.com/Alvarogd6/lab4-websockets/tree/gift). Alvaro García ha podido migrar la plataforma del servidor de Grizzly a Spring usando un TextWebSocketHandler. Lección aprendida, cuando hay un marco compartido bien definido (ver [JSR 356](https://jcp.org/en/jsr/detail?id=356)) las implementaciones pueden parecer muy diferentes, pero enseguida se ve qué se relaciona con qué. : gift: 
 
-Proposed:
+In progress:
 
 - Support STOMP in the server side and create a small client that uses it
+
+Proposed:
+
 - Support SockJS in the server side and show that xhr-polling can be used as transport instead of WebSocket when needed ([additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-fallback-sockjs-client))
 - Use the server as a relay server to connect to an external message broker (e.g. RabbitMQ, [additional info](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#websocket-stomp-handle-broker-relay)) 
 
